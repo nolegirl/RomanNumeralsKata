@@ -104,4 +104,9 @@
     XCTAssert([result isEqualToString:@"XCIX"], @"%@ should be XCIX", result);
 }
 
+- (void)testCXL {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:140]];
+    XCTAssert([result isEqualToString:@"CXL"], @"%@ should be CXL", result);
+}
+
 @end
