@@ -54,10 +54,16 @@
     XCTAssert([result isEqualToString:@"VI"], @"%@ should be VI", result);
 }
 
+- (void)testIX {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:9]];
+    XCTAssert([result isEqualToString:@"IX"], @"%@ should be IX", result);
+}
+
 - (void)testX {
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:10]];
     XCTAssert([result isEqualToString:@"X"], @"%@ should be X", result);
 }
+
 
 
 @end
