@@ -39,12 +39,10 @@
     XCTAssert([result isEqualToString:@"II"], @"%@ should be II", result);
 }
 
+- (void)testV {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:5]];
+    XCTAssert([result isEqualToString:@"V"], @"%@ should be V", result);
+}
 
-//- (void)testPerformanceExample {
-//    // This is an example of a performance test case.
-//    [self measureBlock:^{
-//        // Put the code you want to measure the time of here.
-//    }];
-//}
 
 @end
