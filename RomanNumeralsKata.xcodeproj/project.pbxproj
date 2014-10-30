@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1F5B89F21A023562005CEC48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B89F11A023562005CEC48 /* main.m */; };
 		1F5B89F51A023562005CEC48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B89F41A023562005CEC48 /* AppDelegate.m */; };
-		1F5B89F81A023562005CEC48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B89F71A023562005CEC48 /* ViewController.m */; };
 		1F5B89FB1A023562005CEC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B89F91A023562005CEC48 /* Main.storyboard */; };
 		1F5B89FD1A023562005CEC48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B89FC1A023562005CEC48 /* Images.xcassets */; };
 		1F5B8A001A023562005CEC48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B89FE1A023562005CEC48 /* LaunchScreen.xib */; };
-		1F5B8A0C1A023562005CEC48 /* RomanNumeralsKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8A0B1A023562005CEC48 /* RomanNumeralsKataTests.m */; };
+		1F5B8A171A0236EF005CEC48 /* RomanNumeralsFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8A161A0236EF005CEC48 /* RomanNumeralsFormatter.m */; };
+		1F5B8A191A023842005CEC48 /* RomanNumeralsKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8A181A023842005CEC48 /* RomanNumeralsKataTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		1F5B89F11A023562005CEC48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F5B89F31A023562005CEC48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F5B89F41A023562005CEC48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F5B89F61A023562005CEC48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1F5B89F71A023562005CEC48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F5B89FA1A023562005CEC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F5B89FC1A023562005CEC48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F5B89FF1A023562005CEC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1F5B8A051A023562005CEC48 /* RomanNumeralsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5B8A0A1A023562005CEC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F5B8A0B1A023562005CEC48 /* RomanNumeralsKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralsKataTests.m; sourceTree = "<group>"; };
+		1F5B8A151A0236EF005CEC48 /* RomanNumeralsFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomanNumeralsFormatter.h; sourceTree = "<group>"; };
+		1F5B8A161A0236EF005CEC48 /* RomanNumeralsFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralsFormatter.m; sourceTree = "<group>"; };
+		1F5B8A181A023842005CEC48 /* RomanNumeralsKataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralsKataTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				1F5B89F31A023562005CEC48 /* AppDelegate.h */,
 				1F5B89F41A023562005CEC48 /* AppDelegate.m */,
-				1F5B89F61A023562005CEC48 /* ViewController.h */,
-				1F5B89F71A023562005CEC48 /* ViewController.m */,
+				1F5B8A151A0236EF005CEC48 /* RomanNumeralsFormatter.h */,
+				1F5B8A161A0236EF005CEC48 /* RomanNumeralsFormatter.m */,
 				1F5B89F91A023562005CEC48 /* Main.storyboard */,
 				1F5B89FC1A023562005CEC48 /* Images.xcassets */,
 				1F5B89FE1A023562005CEC48 /* LaunchScreen.xib */,
@@ -105,7 +105,7 @@
 		1F5B8A081A023562005CEC48 /* RomanNumeralsKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F5B8A0B1A023562005CEC48 /* RomanNumeralsKataTests.m */,
+				1F5B8A181A023842005CEC48 /* RomanNumeralsKataTests.m */,
 				1F5B8A091A023562005CEC48 /* Supporting Files */,
 			);
 			path = RomanNumeralsKataTests;
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5B89F81A023562005CEC48 /* ViewController.m in Sources */,
+				1F5B8A171A0236EF005CEC48 /* RomanNumeralsFormatter.m in Sources */,
 				1F5B89F51A023562005CEC48 /* AppDelegate.m in Sources */,
 				1F5B89F21A023562005CEC48 /* main.m in Sources */,
 			);
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5B8A0C1A023562005CEC48 /* RomanNumeralsKataTests.m in Sources */,
+				1F5B8A191A023842005CEC48 /* RomanNumeralsKataTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
