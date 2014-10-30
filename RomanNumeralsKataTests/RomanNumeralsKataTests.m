@@ -99,4 +99,9 @@
     XCTAssert([result isEqualToString:@"C"], @"%@ should be C", result);
 }
 
+- (void)testXCIX {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:99]];
+    XCTAssert([result isEqualToString:@"XCIX"], @"%@ should be XCIX", result);
+}
+
 @end
