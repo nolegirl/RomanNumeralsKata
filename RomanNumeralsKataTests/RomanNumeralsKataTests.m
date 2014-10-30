@@ -32,8 +32,13 @@
     // This is an example of a functional test case.
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:1]];
     XCTAssert([result isEqualToString:@"I"], @"%@ should be I", result);
-    XCTAssert(YES, @"Pass");
 }
+
+- (void)testII {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:2]];
+    XCTAssert([result isEqualToString:@"II"], @"%@ should be II", result);
+}
+
 
 //- (void)testPerformanceExample {
 //    // This is an example of a performance test case.
