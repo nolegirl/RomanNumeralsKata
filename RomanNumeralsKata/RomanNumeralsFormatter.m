@@ -12,6 +12,7 @@
 
 - (NSString *)stringFromNumber:(NSNumber *)number {
     NSArray *possibilities = [NSArray arrayWithObjects:
+                              [NSArray arrayWithObjects:@"L", [NSNumber numberWithInt:50], nil],
                               [NSArray arrayWithObjects:@"X", [NSNumber numberWithInt:10], nil],
                               [NSArray arrayWithObjects:@"IX", [NSNumber numberWithInt:9], nil],
                               [NSArray arrayWithObjects:@"V", [NSNumber numberWithInt:5], nil],

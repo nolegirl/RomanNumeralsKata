@@ -74,4 +74,9 @@
     XCTAssert([result isEqualToString:@"XX"], @"%@ should be XX", result);
 }
 
+- (void)testL {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:50]];
+    XCTAssert([result isEqualToString:@"L"], @"%@ should be L", result);
+}
+
 @end
