@@ -10,4 +10,20 @@
 
 @implementation RomanNumeralsFormatter
 
+- (NSString *)stringFromNumber:(NSNumber *)number {
+    NSArray *possibilities = [NSArray arrayWithObjects:
+                              [NSArray arrayWithObjects:@"I", [NSNumber numberWithInt:1], nil], nil];
+
+    NSMutableString *result = [NSMutableString string];
+    __block NSInteger value = [number integerValue];
+    [possibilities enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        NSInteger arabic = [[obj objectAtIndex:1] integerValue];
+        while(value >= arabic) {
+            [result appendString:[obj objectAtIndex:0]];
+            value = value - arabic;
+        }
+    }];
+    return result;
+}
+
 @end
