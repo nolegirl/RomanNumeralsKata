@@ -74,6 +74,11 @@
     XCTAssert([result isEqualToString:@"XX"], @"%@ should be XX", result);
 }
 
+- (void)testXL {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:40]];
+    XCTAssert([result isEqualToString:@"XL"], @"%@ should be XL", result);
+}
+
 - (void)testL {
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:50]];
     XCTAssert([result isEqualToString:@"L"], @"%@ should be L", result);
@@ -82,6 +87,11 @@
 - (void)testLX {
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:60]];
     XCTAssert([result isEqualToString:@"LX"], @"%@ should be LX", result);
+}
+
+- (void)testLXXVIII {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:78]];
+    XCTAssert([result isEqualToString:@"LXXVIII"], @"%@ should be LXXVIII", result);
 }
 
 @end
