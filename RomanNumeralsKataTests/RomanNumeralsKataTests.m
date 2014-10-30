@@ -129,6 +129,11 @@
     XCTAssert([result isEqualToString:@"CM"], @"%@ should be CM", result);
 }
 
+- (void)CMXLVIII {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:948]];
+    XCTAssert([result isEqualToString:@"CMXLVIII"], @"%@ should be CMXLVIII", result);
+}
+
 - (void)testM {
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:1000]];
     XCTAssert([result isEqualToString:@"M"], @"%@ should be M", result);
