@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5B89F21A023562005CEC48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B89F11A023562005CEC48 /* main.m */; };
+		1F5B89F51A023562005CEC48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B89F41A023562005CEC48 /* AppDelegate.m */; };
+		1F5B89F81A023562005CEC48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B89F71A023562005CEC48 /* ViewController.m */; };
+		1F5B89FB1A023562005CEC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B89F91A023562005CEC48 /* Main.storyboard */; };
+		1F5B89FD1A023562005CEC48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B89FC1A023562005CEC48 /* Images.xcassets */; };
+		1F5B8A001A023562005CEC48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B89FE1A023562005CEC48 /* LaunchScreen.xib */; };
+		1F5B8A0C1A023562005CEC48 /* RomanNumeralsKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8A0B1A023562005CEC48 /* RomanNumeralsKataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F5B8A061A023562005CEC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F5B89E41A023561005CEC48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F5B89EB1A023561005CEC48;
+			remoteInfo = RomanNumeralsKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F5B89EC1A023561005CEC48 /* RomanNumeralsKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralsKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5B89F01A023562005CEC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5B89F11A023562005CEC48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F5B89F31A023562005CEC48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F5B89F41A023562005CEC48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F5B89F61A023562005CEC48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F5B89F71A023562005CEC48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F5B89FA1A023562005CEC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F5B89FC1A023562005CEC48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F5B89FF1A023562005CEC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F5B8A051A023562005CEC48 /* RomanNumeralsKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5B8A0A1A023562005CEC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5B8A0B1A023562005CEC48 /* RomanNumeralsKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralsKataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5B89E91A023561005CEC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5B8A021A023562005CEC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5B89E31A023561005CEC48 = {
+			isa = PBXGroup;
+			children = (
+				1F5B89EE1A023561005CEC48 /* RomanNumeralsKata */,
+				1F5B8A081A023562005CEC48 /* RomanNumeralsKataTests */,
+				1F5B89ED1A023561005CEC48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5B89ED1A023561005CEC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B89EC1A023561005CEC48 /* RomanNumeralsKata.app */,
+				1F5B8A051A023562005CEC48 /* RomanNumeralsKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5B89EE1A023561005CEC48 /* RomanNumeralsKata */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B89F31A023562005CEC48 /* AppDelegate.h */,
+				1F5B89F41A023562005CEC48 /* AppDelegate.m */,
+				1F5B89F61A023562005CEC48 /* ViewController.h */,
+				1F5B89F71A023562005CEC48 /* ViewController.m */,
+				1F5B89F91A023562005CEC48 /* Main.storyboard */,
+				1F5B89FC1A023562005CEC48 /* Images.xcassets */,
+				1F5B89FE1A023562005CEC48 /* LaunchScreen.xib */,
+				1F5B89EF1A023562005CEC48 /* Supporting Files */,
+			);
+			path = RomanNumeralsKata;
+			sourceTree = "<group>";
+		};
+		1F5B89EF1A023562005CEC48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B89F01A023562005CEC48 /* Info.plist */,
+				1F5B89F11A023562005CEC48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F5B8A081A023562005CEC48 /* RomanNumeralsKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B8A0B1A023562005CEC48 /* RomanNumeralsKataTests.m */,
+				1F5B8A091A023562005CEC48 /* Supporting Files */,
+			);
+			path = RomanNumeralsKataTests;
+			sourceTree = "<group>";
+		};
+		1F5B8A091A023562005CEC48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B8A0A1A023562005CEC48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5B89EB1A023561005CEC48 /* RomanNumeralsKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5B8A0F1A023562005CEC48 /* Build configuration list for PBXNativeTarget "RomanNumeralsKata" */;
+			buildPhases = (
+				1F5B89E81A023561005CEC48 /* Sources */,
+				1F5B89E91A023561005CEC48 /* Frameworks */,
+				1F5B89EA1A023561005CEC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumeralsKata;
+			productName = RomanNumeralsKata;
+			productReference = 1F5B89EC1A023561005CEC48 /* RomanNumeralsKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F5B8A041A023562005CEC48 /* RomanNumeralsKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5B8A121A023562005CEC48 /* Build configuration list for PBXNativeTarget "RomanNumeralsKataTests" */;
+			buildPhases = (
+				1F5B8A011A023562005CEC48 /* Sources */,
+				1F5B8A021A023562005CEC48 /* Frameworks */,
+				1F5B8A031A023562005CEC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F5B8A071A023562005CEC48 /* PBXTargetDependency */,
+			);
+			name = RomanNumeralsKataTests;
+			productName = RomanNumeralsKataTests;
+			productReference = 1F5B8A051A023562005CEC48 /* RomanNumeralsKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F5B89E41A023561005CEC48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Sieglitz;
+				TargetAttributes = {
+					1F5B89EB1A023561005CEC48 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					1F5B8A041A023562005CEC48 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1F5B89EB1A023561005CEC48;
+					};
+				};
+			};
+			buildConfigurationList = 1F5B89E71A023561005CEC48 /* Build configuration list for PBXProject "RomanNumeralsKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F5B89E31A023561005CEC48;
+			productRefGroup = 1F5B89ED1A023561005CEC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5B89EB1A023561005CEC48 /* RomanNumeralsKata */,
+				1F5B8A041A023562005CEC48 /* RomanNumeralsKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5B89EA1A023561005CEC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5B89FB1A023562005CEC48 /* Main.storyboard in Resources */,
+				1F5B8A001A023562005CEC48 /* LaunchScreen.xib in Resources */,
+				1F5B89FD1A023562005CEC48 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5B8A031A023562005CEC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5B89E81A023561005CEC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5B89F81A023562005CEC48 /* ViewController.m in Sources */,
+				1F5B89F51A023562005CEC48 /* AppDelegate.m in Sources */,
+				1F5B89F21A023562005CEC48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5B8A011A023562005CEC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5B8A0C1A023562005CEC48 /* RomanNumeralsKataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F5B8A071A023562005CEC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F5B89EB1A023561005CEC48 /* RomanNumeralsKata */;
+			targetProxy = 1F5B8A061A023562005CEC48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F5B89F91A023562005CEC48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5B89FA1A023562005CEC48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F5B89FE1A023562005CEC48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5B89FF1A023562005CEC48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F5B8A0D1A023562005CEC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F5B8A0E1A023562005CEC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F5B8A101A023562005CEC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RomanNumeralsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F5B8A111A023562005CEC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RomanNumeralsKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F5B8A131A023562005CEC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RomanNumeralsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralsKata.app/RomanNumeralsKata";
+			};
+			name = Debug;
+		};
+		1F5B8A141A023562005CEC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RomanNumeralsKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralsKata.app/RomanNumeralsKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5B89E71A023561005CEC48 /* Build configuration list for PBXProject "RomanNumeralsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5B8A0D1A023562005CEC48 /* Debug */,
+				1F5B8A0E1A023562005CEC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F5B8A0F1A023562005CEC48 /* Build configuration list for PBXNativeTarget "RomanNumeralsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5B8A101A023562005CEC48 /* Debug */,
+				1F5B8A111A023562005CEC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F5B8A121A023562005CEC48 /* Build configuration list for PBXNativeTarget "RomanNumeralsKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5B8A131A023562005CEC48 /* Debug */,
+				1F5B8A141A023562005CEC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F5B89E41A023561005CEC48 /* Project object */;
+}
