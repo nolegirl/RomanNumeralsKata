@@ -145,6 +145,11 @@
     
 }
 
+- (void)testMMCM {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:2900]];
+    XCTAssert([result isEqualToString:@"MMCM"], @"%@ should be CMMM", result);
+}
+
 - (void)testMMM {
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:3000]];
     XCTAssert([result isEqualToString:@"MMM"], @"%@ should be MMM", result);
