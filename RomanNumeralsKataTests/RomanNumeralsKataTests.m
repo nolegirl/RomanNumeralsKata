@@ -139,4 +139,10 @@
     XCTAssert([result isEqualToString:@"M"], @"%@ should be M", result);
 }
 
+- (void)testMCDXCIX {
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:1499]];
+    XCTAssert([result isEqualToString:@"MCDXCIX"], @"%@ should be MCDXCIX", result);
+    
+}
+
 @end
